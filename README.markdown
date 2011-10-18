@@ -16,19 +16,30 @@ ppw - PHP Project Wizard
 
 ### SETTING
 
-> $mv builds/ /path/to/zf2/
+    $mv builds/ /path/to/zf2/
 
-    OR
+> OR
 
-> $sudo php zf2-jenkins-builds.php
+    $sudo php zf2-jenkins-builds.php
 
 in your zf2 clone dir.
 
 
 ### Permission
 A lot of components unittests use temporary files.
+
 So, you should change permission or chown tests/ dir.
-> $sudo chown -R tests/Zend
+
+    $sudo chown -R tests/Zend
 
 ### SETUP Jenkins.
+
+ - 1. Create new job
+![newjob](https://github.com/sasezaki/zf2-jenkins-builds/raw/master/media/img/jenkins-newjob.png)
+
+ - 2. Setting build
+![antsetting](https://github.com/sasezaki/zf2-jenkins-builds/raw/master/media/img/jenkins-ant.png)
+
+ - 3. Test "Build Now"
+![antsetting](https://github.com/sasezaki/zf2-jenkins-builds/raw/master/media/img/jenkins_ZF2Debug.png)
 
