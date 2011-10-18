@@ -5,6 +5,10 @@ Zend Framework 2 's individual components build files.
 
  - This script aims to aid to use Jenkins (or other CI) as easy.
 
+
+![jekins](https://github.com/sasezaki/zf2-jenkins-builds/raw/master/media/img/jenkins-top.png)
+
+
 ##HOW TO USE?
 ### INSTALL 
 phpunit, jenkins, ant &
