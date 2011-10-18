@@ -34,12 +34,17 @@ So, you should change permission or chown tests/ dir.
 
 ### SETUP Jenkins.
 
- - 1. Create new job
+ - Create new job (choose - Build a free-style)
+
 ![newjob](https://github.com/sasezaki/zf2-jenkins-builds/raw/master/media/img/jenkins-newjob.png)
 
- - 2. Setting build
+
+ - Setting build
+
 ![antsetting](https://github.com/sasezaki/zf2-jenkins-builds/raw/master/media/img/jenkins-ant.png)
 
- - 3. Test "Build Now"
+
+ - Test "Build Now"
+
 ![antsetting](https://github.com/sasezaki/zf2-jenkins-builds/raw/master/media/img/jenkins_ZF2Debug.png)
 
