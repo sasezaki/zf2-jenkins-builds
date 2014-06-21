@@ -8,6 +8,9 @@ Zend Framework 2 's individual components build files.
 
 ![jekins](https://github.com/sasezaki/zf2-jenkins-builds/raw/master/media/img/jenkins-top.png)
 
+## OUT OF DATE
+This repository was experimental made for Jenkins CI.
+Because several years ago zendframework/zf2 did not do CI. (Currently it uses Travis CI, and also probably Scrutinizer-ci will be introduced zendframework/zf2#5860 , so nowadays this repository would be useless.
 
 ##HOW TO USE?
 ### INSTALL 
